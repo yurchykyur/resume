@@ -1,0 +1,28 @@
+    .doing {
+        display: none;
+    }
+
+    @media screen and (min-width: 768px) {}
+
+    @media screen and (min-width: 1200px) {
+        .doing {
+            display: block;
+            padding-top: 60px;
+            padding-bottom: 120px;
+        }
+
+        .doing__title {
+            margin-bottom: 72px;
+            font-size: 36px;
+            line-height: 1.11;
+            text-align: center;
+            letter-spacing: 0.02em;
+            text-transform: capitalize;
+        }
+
+        .doing__list {
+            display: flex;
+            column-gap: calc(var(--gap) * 3);
+        }
+
+    }
