@@ -24,11 +24,223 @@
     <!-- ! --------------------- Підключити фавайкон ------------------------- -->
   </head>
   <body>
-    <h1>hello</h1>
-    <header></header>
-    <body>
-      <main></main>
-      <aside></aside>
-    </body>
+    <div class="container">
+      <div class="main-content__wrapper">
+        <header class="about-me">
+          <p class="about-me__profession">
+            Head engineer of project / Leading construction expert
+          </p>
+          <h1 class="about-me__name">Yurii Yurchyk</h1>
+          <p class="about-me__description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
+            ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
+            accumsan lacus vel facilisis.
+          </p>
+        </header>
+
+        <main>
+          <section class="section projects">
+            <h2 class="projects__title">Projects</h2>
+            <ol class="projects__list">
+              <li class="projects__item">
+                <a
+                  class="projects__link"
+                  href="https://github.com/PavloLysiuk/TheWatchSpot"
+                  >https://TheWatchSpot</a
+                >
+                <p class="projects__descr">[ HTML5, CSS3 ]</p>
+              </li>
+              <li class="projects__item">
+                <a href=""></a>
+                <p class="projects__descr">[ JavaScript ]</p>
+              </li>
+              <li class="projects__item">
+                <a href=""></a>
+                <p class="projects__descr">[ React.js, Node.js ]</p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="work-exp section">
+            <h2 class="work-exp__title">Work Experience</h2>
+            <p class="up-to-now">My jobs that I am currently working on</p>
+            <ol class="up-to-now__list">
+              <li class="up-to-now__item">LLC "INSTITUTE UKRDORPROEKT"</li>
+              <li class="up-to-now__item">LLC "BUDPROEKTEKSPERTIZA "</li>
+            </ol>
+
+            <ul class="work-exp__list-position">
+              <!-- Company 1 -->
+
+              <li class="position__item">
+                <h3 class="position__title">
+                  Head engineer of project
+                  <span class="position__company"
+                    >LLC "INSTITUTE UKRDORPROEKT"</span
+                  >
+                </h3>
+                <p class="position__period">
+                  March 2013 - up to now
+                  <span class="position__period-divide">|</span>Country
+                </p>
+                <ul class="position__list-descr">
+                  <li class=""><p></p></li>
+                  <li class=""><p></p></li>
+                  <li class=""><p></p></li>
+                </ul>
+              </li>
+              <!-- Company 2 -->
+
+              <li>
+                <h3></h3>
+                <p></p>
+                <ul>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                </ul>
+              </li>
+              <!-- Company 3 -->
+
+              <li>
+                <h3></h3>
+                <p></p>
+                <ul>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                </ul>
+              </li>
+            </ul>
+          </section>
+          <section class="section education">
+            <h2 class="education__title">Education</h2>
+
+            <ul class="education__list">
+              <li class="education__item">
+                <h3 class="education__university">GoIT</h3>
+                <p class="education__faculty">
+                  Full Stack Developer
+                  <span class="education__faculty-group">(FSON 85)</span>
+                </p>
+                <p class="education__period">
+                  february 2023 - 2023<span class="education__period-divide"
+                    >|</span
+                  >Country
+                </p>
+              </li>
+              <li class="education__item">
+                <h3 class="education__university">
+                  National Transport university
+                </h3>
+                <p class="education__faculty">Roads and airfields</p>
+                <p class="education__period">
+                  2002 - 2007<span class="education__period-divide">|</span
+                  >Country
+                </p>
+              </li>
+            </ul>
+          </section>
+        </main>
+      </div>
+
+      <aside class="sidebar">
+        <picture>
+          <img class="sidebar__img" src="" alt="My foto" />
+        </picture>
+        <!-- Contacts -->
+        <div class="contacts__container">
+          <h3 class="contacts__title">Contacts</h3>
+          <ul class="contacts__list">
+            <li class="contacts__item">
+              <span class="contact__type">C: </span>
+              <a href="tel:+380953546754" class="contacts-tel"
+                >+38 (095) 354 67 54</a
+              >
+            </li>
+            <li class="contacts__item">
+              <span class="contact__type">E: </span>
+              <a href="mailto:yurchyk.yur.s@gmail.com" class="contacts-mail"
+                >yurchyk.yur.s@gmail.com</a
+              >
+            </li>
+          </ul>
+
+          <ul class="social">
+            <li class="social__item">
+              <!-- <svg class="social__icon" width="32" height="32">
+                <use href="sfsfsdfsdfsfdsfsddsdsdfdsfdsffdfdfsd"></use></svg
+              > -->
+              1
+            </li>
+            <li class="social__item">
+              <!-- <svg class="social__icon" width="32" height="32">
+                <use href=""></use></svg
+              > -->
+              2
+            </li>
+            <li class="social__item">
+              <!-- <svg class="social__icon" width="32" height="32">
+                <use href=""></use></svg
+              > -->
+              3
+            </li>
+            <li class="social__item">
+              <!-- <svg class="social__icon" width="32" height="32">
+                <use href=""></use></svg> -->
+              4
+            </li>
+          </ul>
+        </div>
+
+        <!-- Tech Skills -->
+        <div class="tech-skills__container">
+          <h3 class="tech-skills__title">Tech Skills</h3>
+          <ul class="tech-skills__list">
+            <li class="tech-skills__item">
+              <span class="tech-skills__text">HTML5</span>
+            </li>
+            <li class="tech-skills__item">
+              <span class="tech-skills__text">CSS3</span>
+            </li>
+            <li class="tech-skills__item">
+              <span class="tech-skills__text">GIT</span>
+            </li>
+            <li class="tech-skills__item">
+              <span class="tech-skills__text">Parcel</span>
+            </li>
+            <li class="tech-skills__item">
+              <span class="tech-skills__text">JavaScript</span>
+            </li>
+            <li class="tech-skills__item">
+              <span class="tech-skills__text">React.js</span>
+            </li>
+            <li class="tech-skills__item">
+              <span class="tech-skills__text">Node.js</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Soft Skills -->
+        <div class="soft-skills__container">
+          <h3 class="soft-skills__title">Soft Skills</h3>
+          <ul class="soft-skills__list">
+            <li class="soft-skills__item">
+              <span class="soft-skills__text">Scrum</span>
+            </li>
+            <li class="soft-skills__item">
+              <span class="soft-skills__text">Agile</span>
+            </li>
+            <li class="soft-skills__item">
+              <span class="soft-skills__text">GTD</span>
+            </li>
+            <li class="soft-skills__item">
+              <span class="soft-skills__text">Teamwork</span>
+            </li>
+          </ul>
+        </div>
+      </aside>
+    </div>
   </body>
 </html>

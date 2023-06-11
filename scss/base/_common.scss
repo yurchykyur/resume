@@ -1,8 +1,33 @@
 body {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
     font-family: 'Roboto', sans-serif;
+
+    color: var(--black);
+    background-color: var(--body-background-color);
 }
 
 .section {
     padding-top: 25px;
     padding-bottom: 25px;
+}
+
+.main-content__wrapper {
+    margin-left: 40px;
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
 }
