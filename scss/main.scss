@@ -1,29 +1,24 @@
 // utils
+
 @import './utils/vars';
 @import './utils/visually-hidden';
 
+// base styles
 
-//base styles 
 @import './base/reset';
-// @import './base/common';
-// @import './base/js-selectors';
-// @import './base/container';
-// @import './base/card-set';
+@import './base/common';
+@import './base/js-selectors';
+@import './base/container';
+@import './base/work-exp-card';
 
 // components
-// @import './components/button';
-// @import './components/social';
-// @import './components/mobile-menu';
-// @import './components/modal-form';
 
+@import './components/mobile-menu';
 
 // layouts
 
-// @import './layouts/header';
-// @import './layouts/hero';
-// @import './layouts/value';
-// @import './layouts/doing';
-// @import './layouts/team';
-// @import './layouts/customers';
-// @import './layouts/footer';
-// @import './layouts/portfolio';
+@import './layouts/header';
+@import './layouts/projects';
+@import './layouts/work-exp';
+@import './layouts/education';
+@import './layouts/aside';
