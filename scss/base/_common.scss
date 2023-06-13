@@ -1,33 +1,40 @@
 body {
-    width: 100%;
-    padding-top: 20px;
-    padding-bottom: 20px;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
 
-    font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
 
-    color: var(--black);
-    background-color: var(--body-background-color);
+  color: var(--black);
+  background-color: var(--body-background-color);
 }
 
 .section {
-    padding-top: 25px;
-    padding-bottom: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .main-content__wrapper {
-    margin-left: 40px;
+  margin-left: 40px;
+  padding-top: 50px;
 }
 
 @media screen and (min-width: 768px) {
-    body {
-        padding-top: 30px;
-        padding-bottom: 30px;
-    }
+  body {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
-    body {
-        padding-top: 40px;
-        padding-bottom: 40px;
-    }
+  body {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .main-content__wrapper {
+    margin-right: auto;
+    margin-left: 80px;
+    padding-top: 50px;
+  }
 }

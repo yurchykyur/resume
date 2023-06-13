@@ -1,0 +1,75 @@
+.work-exp section {
+}
+
+.work-exp__title {
+  margin-bottom: 12px;
+
+  font-size: 22px;
+  line-height: 1.23;
+}
+
+.up-to-now {
+  margin-bottom: 12px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+}
+
+.up-to-now__list {
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 12px;
+  margin-left: 0;
+}
+
+.up-to-now__item {
+  margin-bottom: 6px;
+
+  font-size: 14px;
+}
+
+.up-to-now__item:last-child {
+  margin-bottom: 0;
+}
+
+.work-exp__list-position {
+}
+
+.position__item {
+  margin-bottom: 16px;
+}
+
+.position__title {
+  margin-bottom: 12px;
+
+  font-size: 16px;
+  line-height: 1.25;
+}
+
+.position__company {
+  margin-bottom: 12px;
+  margin-left: 8px;
+
+  color: var(--color-university);
+
+  font-size: 16px;
+  line-height: 1.25;
+}
+
+.position__period {
+  margin-bottom: 8px;
+
+  font-size: 12px;
+  line-height: 1.25;
+
+  color: var(--text-color);
+}
+
+.position__period-divide {
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
+.position__list-descr {
+}
