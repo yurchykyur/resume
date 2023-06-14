@@ -5,7 +5,7 @@
   margin-bottom: 12px;
 
   font-size: 22px;
-  line-height: 1.23;
+  line-height: 1.25;
 }
 
 .up-to-now {
@@ -37,7 +37,11 @@
 }
 
 .position__item {
-  margin-bottom: 16px;
+  margin-bottom: 12px;
+}
+
+.position__item:last-child {
+  margin-bottom: 0;
 }
 
 .position__title {
@@ -71,5 +75,24 @@
   margin-right: 6px;
 }
 
+.position__list {
+  list-style: initial;
+}
+
+.position__list-item {
+  margin-bottom: 6px;
+  margin-left: 16px;
+
+  color: var(--text-color);
+}
+
+.position__list-item:last-child {
+  margin-bottom: 0;
+}
+
 .position__list-descr {
+  font-size: 14px;
+  line-height: 1.25;
+
+  // color: var(--text-color);
 }

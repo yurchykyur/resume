@@ -1,41 +1,40 @@
 .about-me {
-    margin-bottom: 25px;
-    padding-right: 20px;
+  padding-right: 20px;
 }
 
 .about-me__profession {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 
-    font-size: 14px;
-    line-height: 1.21;
+  font-size: 14px;
+  line-height: 1.25;
 }
 
 .about-me__name {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 
-    font-size: 30px;
-    line-height: 1.22;
+  font-size: 30px;
+  line-height: 1.25;
 }
 
 .about-me__description {
-    font-size: 14px;
-    line-height: 1.71;
-    color: var(--text-color);
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--text-color);
 }
 
-@media screen and (min-width: 425px) {}
+@media screen and (min-width: 425px) {
+}
 
 @media screen and (min-width: 768px) {
-    .about-me__name {
-        margin-bottom: 30px;
+  .about-me__name {
+    margin-bottom: 30px;
 
-        font-size: 45px;
-        line-height: 1.22;
-    }
+    font-size: 45px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
-    .about-me {
-        width: 525px;
-    }
+  .about-me {
+    width: 525px;
+  }
 }

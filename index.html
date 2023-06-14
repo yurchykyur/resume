@@ -36,26 +36,33 @@
 
     <link rel="stylesheet" href="./css/main.min.css" />
     <title>Resume Yurii Yurchyk</title>
-
-    <!-- ! --------------------- Підключити фавайкон ------------------------- -->
   </head>
   <body>
-    <div class="container">
-      <div class="main-content__wrapper">
-        <header class="about-me">
-          <p class="about-me__profession">
-            Head engineer of project / Leading construction expert
-          </p>
-          <h1 class="about-me__name">Yurii Yurchyk</h1>
-          <p class="about-me__description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
-            ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
-            accumsan lacus vel facilisis.
-          </p>
-        </header>
+    <main>
+      <div class="container">
+        <div class="main-content__wrapper">
+          <button
+            class="mobile-menu__btn-open js-open-menu"
+            type="button"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+          >
+            <svg class="mobile-menu__btn-icon" width="32" height="32">
+              <use href="./image/icons.svg#icon-menu-burger"></use>
+            </svg>
+          </button>
 
-        <main>
+          <section class="section about-me">
+            <p class="about-me__profession">FRONT-END DEVELOPER</p>
+            <h1 class="about-me__name">Yurii Yurchyk</h1>
+            <p class="about-me__description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
+              ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
+              accumsan lacus vel facilisis.
+            </p>
+          </section>
+
           <section class="section projects">
             <h2 class="projects__title">Projects</h2>
             <ol class="projects__list">
@@ -83,30 +90,89 @@
             <p class="up-to-now">My jobs that I am currently working on</p>
             <ol class="up-to-now__list">
               <li class="up-to-now__item">
-                <p>LLC "INSTITUTE UKRDORPROEKT"</p>
+                <p class="up-to-now__company">LLC "INSTITUTE UKRDORPROEKT"</p>
+                <!-- <p class="up-to-now__position">
+                  Position: Head engineer of project
+                </p> -->
               </li>
-              <li class="up-to-now__item"><p>LLC "BUDPROEKTEKSPERTIZA"</p></li>
+              <li class="up-to-now__item">
+                <p class="up-to-now__company">LLC "BUDPROEKTEKSPERTIZA"</p>
+                <!-- <p class="up-to-now__position">
+                  Position: Leading construction expert
+                </p> -->
+              </li>
             </ol>
 
             <ul class="work-exp__list-position">
-              <!-- Company 3 -->
+              <!-- Company 6 -->
 
               <li class="position__item">
                 <h3 class="position__title">
-                  Head engineer of project
+                  Leading construction expert
                   <span class="position__company"
-                    >LLC "INSTITUTE UKRDORPROEKT"</span
+                    >LLC "BUDPROEKTEKSPERTIZA"</span
                   >
                 </h3>
                 <p class="position__period">
-                  March 2013 - up to now<span class="position__period-divide"
+                  June 2021 - up to now<span class="position__period-divide"
                     >|</span
                   >Country
                 </p>
-                <ul class="position__list-descr">
-                  <li class=""><p></p></li>
-                  <li class=""><p></p></li>
-                  <li class=""><p></p></li>
+                <ul class="position__list">
+                  <li class="position__list-item">
+                    <p class="position__list-descr">
+                      Examination of design documentation for the construction
+                      of highways.
+                    </p>
+                  </li>
+                </ul>
+              </li>
+
+              <!-- Company 5 -->
+
+              <li class="position__item">
+                <h3 class="position__title">
+                  Construction expert
+                  <span class="position__company"
+                    >LLC "UKREXPERTISE IN CONSTRUCTION"</span
+                  >
+                </h3>
+                <p class="position__period">
+                  April 2021 - June 2021<span class="position__period-divide"
+                    >|</span
+                  >Country
+                </p>
+                <ul class="position__list">
+                  <li class="position__list-item">
+                    <p class="position__list-descr">
+                      Examination of design documentation for the construction
+                      of highways.
+                    </p>
+                  </li>
+                </ul>
+              </li>
+
+              <!-- Company 4 -->
+
+              <li class="position__item">
+                <h3 class="position__title">
+                  Leading construction expert
+                  <span class="position__company"
+                    >LLC "UKREXPERTBUDPROEKT"</span
+                  >
+                </h3>
+                <p class="position__period">
+                  April 2021 - April 2021<span class="position__period-divide"
+                    >|</span
+                  >Country
+                </p>
+                <ul class="position__list">
+                  <li class="position__list-item">
+                    <p class="position__list-descr">
+                      Examination of design documentation for the construction
+                      of highways.
+                    </p>
+                  </li>
                 </ul>
               </li>
 
@@ -123,10 +189,25 @@
                   March 2013 - up to now
                   <span class="position__period-divide">|</span>Country
                 </p>
-                <ul class="position__list-descr">
-                  <li class=""><p></p></li>
-                  <li class=""><p></p></li>
-                  <li class=""><p></p></li>
+                <ul class="position__list">
+                  <li class="position__list-item">
+                    <p class="position__list-descr">
+                      Project management. Work with the Customer,
+                      subcontractors, expertise and other interested
+                      organizations.
+                    </p>
+                  </li>
+                  <li class="position__list-item">
+                    <p class="position__list-descr">
+                      Organization of work on the project. Setting and checking
+                      tasks.
+                    </p>
+                  </li>
+                  <li class="position__list-item">
+                    <p class="position__list-descr">
+                      The development section of the general explanatory note.
+                    </p>
+                  </li>
                 </ul>
               </li>
 
@@ -141,10 +222,12 @@
                   December 2012 - March 2013
                   <span class="position__period-divide">|</span>Country
                 </p>
-                <ul class="position__list-descr">
-                  <li class=""><p></p></li>
-                  <li class=""><p></p></li>
-                  <li class=""><p></p></li>
+                <ul class="position__list">
+                  <li class="position__list-item">
+                    <p class="position__list-descr">
+                      Work with the cost of the project.
+                    </p>
+                  </li>
                 </ul>
               </li>
               <!-- Company 1 -->
@@ -160,14 +243,18 @@
                   December 2006 - November 2012
                   <span class="position__period-divide">|</span>Country
                 </p>
-                <ul class="position__list-descr">
-                  <li class=""><p></p></li>
-                  <li class=""><p></p></li>
-                  <li class=""><p></p></li>
+                <ul class="position__list">
+                  <li class="position__list-item">
+                    <p class="position__list-descr">
+                      Development of design documentation for highway
+                      construction.
+                    </p>
+                  </li>
                 </ul>
               </li>
             </ul>
           </section>
+
           <section class="section education">
             <h2 class="education__title">Education</h2>
 
@@ -197,119 +284,139 @@
               </li>
             </ul>
           </section>
-        </main>
+
+          <!--  ============= mobile-menu -->
+
+          <div class="mobile-menu js-menu-container" id="mobile-menu">
+            <!-- is-open -->
+
+            <div class="mobile-menu__container">
+              <button
+                class="mobile-menu__btn-close js-close-menu"
+                type="button"
+              >
+                <svg class="mobile-menu__btn-close-icon" width="32" height="32">
+                  <use href="./image/icons.svg#icon-close"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!--  ============= sidebar -->
+
+        <aside class="sidebar">
+          <picture>
+            <img class="sidebar__img" src="" alt="My foto" />
+          </picture>
+          <!-- Contacts -->
+          <div class="contacts__container">
+            <h3 class="contacts__title">Contacts</h3>
+            <ul class="contacts__list">
+              <li class="contacts__item">
+                <span class="contact__type">C: </span>
+                <a href="tel:+380953546754" class="contacts-tel"
+                  >+38 (095) 354 67 54</a
+                >
+              </li>
+              <li class="contacts__item">
+                <span class="contact__type">E: </span>
+                <a href="mailto:yurchyk.yur.s@gmail.com" class="contacts-mail"
+                  >yurchyk.yur.s@gmail.com</a
+                >
+              </li>
+            </ul>
+
+            <ul class="social">
+              <li class="social__item">
+                <a
+                  class="social-link"
+                  href="https://linkedin.com/in/yurii-yurchyk"
+                  ><svg class="social__icon linkedin" width="24" height="24">
+                    <use href="./image/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social__item">
+                <a class="social-link" href="https://facebook.com/yurchyk.yurii"
+                  ><svg class="social__icon facebook" width="24" height="24">
+                    <use href="./image/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social__item">
+                <a class="social-link" href="https://github.com/yurchykyur/">
+                  <svg class="social__icon github" width="24" height="24">
+                    <use href="./image/icons.svg#icon-github"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social__item">
+                <a class="social-link" href="https://t.me/Yurchyk_Yurii"
+                  ><svg class="social__icon telegram" width="24" height="24">
+                    <use href="./image/icons.svg#icon-telegram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social__item">
+                <a class="social-link" href="https://wa.me/380953546754"
+                  ><svg class="social__icon whatsapp" width="24" height="24">
+                    <use href="./image/icons.svg#icon-whatsapp"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Tech Skills -->
+          <div class="tech-skills__container">
+            <h3 class="tech-skills__title">Tech Skills</h3>
+            <ul class="tech-skills__list">
+              <li class="tech-skills__item">
+                <span class="tech-skills__text">HTML5</span>
+              </li>
+              <li class="tech-skills__item">
+                <span class="tech-skills__text">CSS3</span>
+              </li>
+              <li class="tech-skills__item">
+                <span class="tech-skills__text">GIT</span>
+              </li>
+              <li class="tech-skills__item">
+                <span class="tech-skills__text">Parcel</span>
+              </li>
+              <li class="tech-skills__item">
+                <span class="tech-skills__text">JavaScript</span>
+              </li>
+              <li class="tech-skills__item">
+                <span class="tech-skills__text">React.js</span>
+              </li>
+              <li class="tech-skills__item">
+                <span class="tech-skills__text">Node.js</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Soft Skills -->
+          <div class="soft-skills__container">
+            <h3 class="soft-skills__title">Soft Skills</h3>
+            <ul class="soft-skills__list">
+              <li class="soft-skills__item">
+                <span class="soft-skills__text">Scrum</span>
+              </li>
+              <li class="soft-skills__item">
+                <span class="soft-skills__text">Agile</span>
+              </li>
+              <li class="soft-skills__item">
+                <span class="soft-skills__text">GTD</span>
+              </li>
+              <li class="soft-skills__item">
+                <span class="soft-skills__text">Teamwork</span>
+              </li>
+            </ul>
+          </div>
+        </aside>
       </div>
-
-      <aside class="sidebar">
-        <picture>
-          <img class="sidebar__img" src="" alt="My foto" />
-        </picture>
-        <!-- Contacts -->
-        <div class="contacts__container">
-          <h3 class="contacts__title">Contacts</h3>
-          <ul class="contacts__list">
-            <li class="contacts__item">
-              <span class="contact__type">C: </span>
-              <a href="tel:+380953546754" class="contacts-tel"
-                >+38 (095) 354 67 54</a
-              >
-            </li>
-            <li class="contacts__item">
-              <span class="contact__type">E: </span>
-              <a href="mailto:yurchyk.yur.s@gmail.com" class="contacts-mail"
-                >yurchyk.yur.s@gmail.com</a
-              >
-            </li>
-          </ul>
-
-          <ul class="social">
-            <li class="social__item">
-              <a
-                class="social-link"
-                href="https://linkedin.com/in/yurii-yurchyk"
-                ><svg class="social__icon linkedin" width="24" height="24">
-                  <use href="./image/icons.svg#icon-linkedin"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="social__item">
-              <a class="social-link" href="https://facebook.com/yurchyk.yurii"
-                ><svg class="social__icon facebook" width="24" height="24">
-                  <use href="./image/icons.svg#icon-facebook"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="social__item">
-              <a class="social-link" href="https://github.com/yurchykyur/">
-                <svg class="social__icon github" width="24" height="24">
-                  <use href="./image/icons.svg#icon-github"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="social__item">
-              <a class="social-link" href="https://t.me/Yurchyk_Yurii"
-                ><svg class="social__icon telegram" width="24" height="24">
-                  <use href="./image/icons.svg#icon-telegram"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="social__item">
-              <a class="social-link" href="https://wa.me/380953546754"
-                ><svg class="social__icon whatsapp" width="24" height="24">
-                  <use href="./image/icons.svg#icon-whatsapp"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
-        </div>
-
-        <!-- Tech Skills -->
-        <div class="tech-skills__container">
-          <h3 class="tech-skills__title">Tech Skills</h3>
-          <ul class="tech-skills__list">
-            <li class="tech-skills__item">
-              <span class="tech-skills__text">HTML5</span>
-            </li>
-            <li class="tech-skills__item">
-              <span class="tech-skills__text">CSS3</span>
-            </li>
-            <li class="tech-skills__item">
-              <span class="tech-skills__text">GIT</span>
-            </li>
-            <li class="tech-skills__item">
-              <span class="tech-skills__text">Parcel</span>
-            </li>
-            <li class="tech-skills__item">
-              <span class="tech-skills__text">JavaScript</span>
-            </li>
-            <li class="tech-skills__item">
-              <span class="tech-skills__text">React.js</span>
-            </li>
-            <li class="tech-skills__item">
-              <span class="tech-skills__text">Node.js</span>
-            </li>
-          </ul>
-        </div>
-
-        <!-- Soft Skills -->
-        <div class="soft-skills__container">
-          <h3 class="soft-skills__title">Soft Skills</h3>
-          <ul class="soft-skills__list">
-            <li class="soft-skills__item">
-              <span class="soft-skills__text">Scrum</span>
-            </li>
-            <li class="soft-skills__item">
-              <span class="soft-skills__text">Agile</span>
-            </li>
-            <li class="soft-skills__item">
-              <span class="soft-skills__text">GTD</span>
-            </li>
-            <li class="soft-skills__item">
-              <span class="soft-skills__text">Teamwork</span>
-            </li>
-          </ul>
-        </div>
-      </aside>
-    </div>
+    </main>
+    <script defer src="./js/mobile-menu.js"></script>
   </body>
 </html>
