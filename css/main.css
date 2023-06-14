@@ -13,7 +13,7 @@
   --telegram-color: #2aabee;
   --whatsapp-color: #60d669;
   --transition-250-cubic: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  --backdrop: rgba(46, 47, 66, 0.4);
+  --backdrop: rgb(191, 191, 194);
 }
 
 .visually-hidden {
@@ -161,22 +161,24 @@ body {
 }
 
 .mobile-menu {
-  position: absolute;
-  top: 0;
-  left: -40px;
+  position: fixed;
+  top: 20px;
+  left: 0;
   z-index: 10;
   width: calc(100vw - 32px);
-  height: 100%;
+  height: calc(100% - 20px);
   background-color: var(--backdrop);
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
   -webkit-transition: opacity var(--transition-250-cubic), visibility var(--transition-250-cubic);
   transition: opacity var(--transition-250-cubic), visibility var(--transition-250-cubic);
-  overflow-y: scroll;
 }
 
 .mobile-menu.is-open {
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
@@ -324,6 +326,7 @@ body {
 
 .mobile-menu__soft-skills__container {
   margin-left: 30px;
+  padding-bottom: 30px;
 }
 
 .mobile-menu__soft-skills__title {
@@ -388,6 +391,10 @@ body {
     width: 525px;
   }
 }
+.projects {
+  padding-right: 15px;
+}
+
 .projects__title {
   margin-bottom: 12px;
   font-size: 22px;
@@ -411,6 +418,10 @@ body {
 
 .projects__descr {
   font-weight: 500;
+}
+
+.work-exp {
+  padding-right: 15px;
 }
 
 .work-exp__title {
@@ -493,6 +504,10 @@ body {
 .position__list-descr {
   font-size: 14px;
   line-height: 1.25;
+}
+
+.education {
+  padding-right: 15px;
 }
 
 .education__title {
