@@ -97,3 +97,9 @@
 
   // color: var(--text-color);
 }
+
+@media screen and (min-width: 1200px) {
+  .work-exp {
+    width: 525px;
+  }
+}
