@@ -1,16 +1,17 @@
 .about-me {
+  padding-top: 25px;
   padding-right: 20px;
 }
 
 .about-me__profession {
-  margin-bottom: 20px;
+  margin-bottom: 12px;
 
   font-size: 14px;
   line-height: 1.25;
 }
 
 .about-me__name {
-  margin-bottom: 30px;
+  margin-bottom: 12px;
 
   font-size: 30px;
   line-height: 1.25;
@@ -18,7 +19,7 @@
 
 .about-me__description {
   font-size: 14px;
-  line-height: 1.71;
+  line-height: 1.5;
   color: var(--text-color);
 }
 
@@ -27,7 +28,7 @@
 
 @media screen and (min-width: 768px) {
   .about-me__name {
-    margin-bottom: 30px;
+    // margin-bottom: 12px;
 
     font-size: 45px;
   }

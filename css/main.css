@@ -13,6 +13,7 @@
   --telegram-color: #2aabee;
   --whatsapp-color: #60d669;
   --transition-250-cubic: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-500-cubic: 500ms cubic-bezier(0.4, 0, 0.2, 1);
   --backdrop: rgb(191, 191, 194);
 }
 
@@ -84,7 +85,6 @@ body {
 .main-content__wrapper {
   position: relative;
   margin-left: 40px;
-  padding-top: 50px;
 }
 
 @media screen and (min-width: 768px) {
@@ -101,7 +101,6 @@ body {
   .main-content__wrapper {
     margin-right: auto;
     margin-left: 80px;
-    padding-top: 50px;
   }
 }
 .modal-open {
@@ -166,13 +165,13 @@ body {
   left: 0;
   z-index: 10;
   width: calc(100vw - 32px);
-  height: calc(100% - 20px);
+  height: 100%;
   background-color: var(--backdrop);
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-  -webkit-transition: opacity var(--transition-250-cubic), visibility var(--transition-250-cubic);
-  transition: opacity var(--transition-250-cubic), visibility var(--transition-250-cubic);
+  -webkit-transition: opacity var(--transition-500-cubic), visibility var(--transition-500-cubic);
+  transition: opacity var(--transition-500-cubic), visibility var(--transition-500-cubic);
 }
 
 .mobile-menu.is-open {
@@ -359,30 +358,30 @@ body {
   }
 }
 .about-me {
+  padding-top: 25px;
   padding-right: 20px;
 }
 
 .about-me__profession {
-  margin-bottom: 20px;
+  margin-bottom: 12px;
   font-size: 14px;
   line-height: 1.25;
 }
 
 .about-me__name {
-  margin-bottom: 30px;
+  margin-bottom: 12px;
   font-size: 30px;
   line-height: 1.25;
 }
 
 .about-me__description {
   font-size: 14px;
-  line-height: 1.71;
+  line-height: 1.5;
   color: var(--text-color);
 }
 
 @media screen and (min-width: 768px) {
   .about-me__name {
-    margin-bottom: 30px;
     font-size: 45px;
   }
 }
@@ -506,6 +505,11 @@ body {
   line-height: 1.25;
 }
 
+@media screen and (min-width: 1200px) {
+  .work-exp {
+    width: 525px;
+  }
+}
 .education {
   padding-right: 15px;
 }
