@@ -470,6 +470,7 @@ body {
 }
 
 .projects__item {
+  margin-bottom: 8px;
   font-size: 14px;
   font-weight: 700;
 }
@@ -478,6 +479,8 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -490,6 +493,8 @@ body {
 }
 
 .projects__descr {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
   font-weight: 500;
 }
 
