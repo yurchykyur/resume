@@ -14,12 +14,15 @@
 }
 
 .projects__item {
+  margin-bottom: 8px;
+
   font-size: 14px;
   font-weight: 700;
 }
 
 .projects__item-wrapper {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -31,6 +34,8 @@
 }
 
 .projects__descr {
+  flex-shrink: 0;
+
   font-weight: 500;
 }
 
