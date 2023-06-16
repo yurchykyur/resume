@@ -37,3 +37,10 @@ body {
     margin-left: 80px;
   }
 }
+
+@media print {
+  body {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
