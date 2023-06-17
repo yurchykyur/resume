@@ -1,16 +1,5 @@
 .print-link {
-  height: 150px;
-  margin-top: 50px;
-  margin-left: 50px;
-}
-
-.print-link__link {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-column-gap: 30px;
-     -moz-column-gap: 30px;
-          column-gap: 30px;
+  display: none;
 }
 
 @media print {

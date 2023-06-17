@@ -108,6 +108,9 @@ body {
     padding-top: 0;
     padding-bottom: 0;
   }
+  @page :left {
+    margin-left: 10cm;
+  }
 }
 .modal-open {
   overflow: hidden;
@@ -186,6 +189,7 @@ body {
   pointer-events: none;
   -webkit-transition: opacity var(--transition-500-cubic), visibility var(--transition-500-cubic);
   transition: opacity var(--transition-500-cubic), visibility var(--transition-500-cubic);
+  overflow-y: scroll;
 }
 
 .mobile-menu.is-open {
@@ -422,6 +426,35 @@ body {
   line-height: 1.25;
 }
 
+.print-link {
+  display: none;
+}
+
+@media print {
+  .print-link {
+    display: block;
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+  .print-link__link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 30px;
+       -moz-column-gap: 30px;
+            column-gap: 30px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .print-link__img {
+    width: 150px;
+    height: 100%;
+  }
+  .print-link__text {
+    font-family: "Roboto", sans-serif;
+  }
+}
 .about-me {
   padding-top: 25px;
   padding-right: 20px;
