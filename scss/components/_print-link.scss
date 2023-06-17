@@ -1,0 +1,26 @@
+.print-link {
+  display: none;
+}
+
+@media print {
+  .print-link {
+    display: block;
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+
+  .print-link__link {
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+  }
+
+  .print-link__img {
+    width: 150px;
+    height: 100%;
+  }
+
+  .print-link__text {
+    font-family: 'Roboto', sans-serif;
+  }
+}

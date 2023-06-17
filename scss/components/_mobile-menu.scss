@@ -35,6 +35,7 @@
   pointer-events: none;
   transition: opacity var(--transition-500-cubic),
     visibility var(--transition-500-cubic);
+  overflow-y: scroll;
 }
 
 .mobile-menu.is-open {
